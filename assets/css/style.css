@@ -1,0 +1,202 @@
+/* Proyectos */
+
+.image.left img {
+    display: block;
+    width: 100%;
+    border-radius: 1px;
+}
+
+.box.post .image {
+    width: 20%;
+}
+
+.image.left {
+    display: block;
+    float: left;
+    margin: 0 2em 2em 0;
+    position: relative;
+    top: 0.25em;
+}
+
+.box.post .inner {
+    margin-left: calc(20% + 2em);
+}
+.box.post {
+    position: relative;
+    margin: 0 0 2em 0;
+}
+
+
+/* Equipo */
+/*-------------------tarjetas de equipo--------------------*/
+.team-card{
+	text-align: center;
+	/*margin-bottom: 45px;*/
+	background-color: #f8f8f8;
+	padding: 35px 0 0 0;
+	transition: all 0.3s ease-in-out;
+	/* margin-bottom: 45px; */
+}
+.team-card .team-card-header{
+	margin-bottom: 45px;
+}
+.team-card .team-card-header .card-icon{
+	border-radius: 100%;
+	display: inline-block;
+	height: 120px;
+	width: 120px;
+	line-height: 120px;
+	position: relative;
+}
+
+.team-card .team-card-header{
+	margin-bottom: 15px;
+	font-size: 21px;
+	color: #51c2b9;
+}
+ .team-card .team-card-content h3{
+	letter-spacing: 2px;
+	margin-bottom: 45px;
+}
+ .team-card .team-card-content h3:after{
+	top: 40px;
+}
+ .team-card .team-card-content p{
+	font-size: 1em;
+	text-align: justify;
+}
+
+/*animaciones*/
+.team-card .team-card-header .card-icon:after{
+	transition: all 0.3s ease-in-out;
+}
+.team-card:hover .team-card-header .card-icon:after{
+	height: 120px;
+	width: 120px;
+	top: -1px;
+	left: -1px;
+}
+
+
+
+.img-responsive {
+    width: 12rem;
+    border-radius: 1px;
+}
+
+
+.social-icons ul a li {
+    display: inline-block;
+    list-style-type: none;
+    border: 2px solid #3fc2b9;
+    background-color: #3fc2b9;
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+    width: 36px;
+		border-radius: 1px;
+}
+/*------------------- FIN tarjetas de equipo--------------------*/
+
+
+/* Contacto */
+
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    line-height: 1em;
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: border-color 0.2s ease-in-out;
+    -webkit-transition: border-color 0.2s ease-in-out;
+    -ms-transition: border-color 0.2s ease-in-out;
+    transition: border-color 0.2s ease-in-out;
+    background: #fff;
+    border: solid 1px #e0e0e0;
+    border-radius: 5px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0.75em;
+    text-decoration: none;
+    width: 100%;
+}
+.row.gtr-50 > * {
+    padding: 15px 0 0 15px;
+}
+
+ul.actions li {
+    padding: 0 0 0 1em;
+    vertical-align: middle;
+}
+
+ul.actions {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    cursor: default;
+    list-style: none;
+    margin-left: -1em;
+    padding-left: 0;
+}
+
+
+#footer .icons {
+    text-align: center;
+    margin: 0;
+    padding-top: 3em;
+}
+
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+/* #footer .icons a {
+    color: #999;
+} */
+
+.icon {
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+}
+ul.icons li a, ul.icons li span {
+    font-size: 2.8em;
+    color: #999 !important;
+}
+
+ul.icons li {
+    display: inline-block;
+    line-height: 1em;
+    padding-left: 1.5em;
+}
+
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.icons li span {
+    display: none;
+}
+
+
+
+
+#footer .copyright {
+    color: #999;
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 0.9em;
+}
