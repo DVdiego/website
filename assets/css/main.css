@@ -9,7 +9,7 @@
   border-bottom-style: solid;
   border-bottom-color: #69d5cd;
   padding-top: 4px;
-  color: #69d5cd !important;
+  color: #99d6d1 !important;
 }
 
 
@@ -71,7 +71,16 @@
   margin: auto;
 }
 /* Servicios */
+.box.highlight h3 {
 
+  text-align: center;
+}
+
+.box.highlight p {
+
+  text-align: justify;
+  padding: 1rem 2rem 0rem 2rem;
+}
 
 #imgServicios {
   width: 100%;

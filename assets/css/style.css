@@ -56,7 +56,7 @@
 }
  .team-card .team-card-content h3{
 	letter-spacing: 2px;
-	margin-bottom: 45px;
+	margin-bottom: 1rem;
 }
  .team-card .team-card-content h3:after{
 	top: 40px;
